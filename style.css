@@ -22,11 +22,21 @@ body{
 #profile-image{
 	position: absolute;
 	top: 0px;
-	left: 1100px;
+	right: 60px;
 	width: 150px;
 	height: 200px;
 	display: inline-block;
 	transform: rotate(-1.3deg);
 	border: 5px solid white;
 	box-shadow: 2.5px 3px 20px 1px black;
+}
+
+#objective{
+	font-size: initial;
+	font-family: serif;
+	font-style: italic;
+}
+
+#objective-container{
+	width: 55%;
 }
