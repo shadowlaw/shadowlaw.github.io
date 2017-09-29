@@ -3,16 +3,21 @@ body{
 	font-size: 18px;
 }
 
+#all-info-container{
+	margin: 3%;
+    padding: 2% 20%;
+}
+
 #name-sep{
 	border: 0.5px solid black;	
 }
 
-.info-text{
-	color: #778899;
-}
-
 #email{
 	text-decoration: underline dotted;
+}
+
+#email, .work-place-info{
+	color: #778899;
 }
 
 #auther-info-container{
@@ -22,7 +27,7 @@ body{
 #profile-image{
 	position: absolute;
 	top: 0px;
-	right: 60px;
+	right: 5%;
 	width: 150px;
 	height: 200px;
 	display: inline-block;
@@ -35,8 +40,50 @@ body{
 	font-size: initial;
 	font-family: serif;
 	font-style: italic;
+	color: #808080;
 }
 
 #objective-container{
-	width: 55%;
+	width: 65%;
+}
+
+.content{
+	width: 65%;
+	clear: right;
+	margin-left: 0%;
+	margin-bottom: 3%;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	border-left: 1px solid black;
+
+}
+
+.label{
+	width: 15%;
+    margin-left: 5%;
+    margin-right: 2%;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+.label, .content{
+	float: left;
+	
+}
+
+.heading-container{
+	margin-bottom: 1%;
+	font-weight: bold;
+}
+
+.content-container{
+	margin-bottom: 1%;
+}
+
+.work-place-info{
+	font-weight: initial;
+	text-align: left;
+	font-style: initial;
 }
