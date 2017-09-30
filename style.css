@@ -54,7 +54,7 @@ body{
 	clear: right;
 	margin-left: 0%;
 	margin-bottom: 3%;
-	padding-left: 2%;
+	padding-left: 20px;
 	padding-bottom: 2%;
 	border-left: 1px solid black;
 
@@ -62,8 +62,8 @@ body{
 
 .label{
 	width: 110px;
-    margin-left: 5%;
-    margin-right: 2%;
+    margin-left: 35px;
+    margin-right: 20px;
     font-size: 25px;
     font-style: italic;
     font-weight: bold;
