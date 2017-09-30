@@ -10,6 +10,10 @@ body{
 	width:850px;
 }
 
+#contact-info{
+	width: 42%
+}
+
 #name-sep{
 	border: 0.5px solid black;	
 }
